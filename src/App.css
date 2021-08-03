@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  font-weight:300;
+  margin-bottom: 50px;
+  padding-top: 100px;
+  
+}
+
+.App {
+  text-align: center;
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 35%, rgba(0,212,255,1) 100%);
+  min-height: 100vh;
+ 
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.temp{
+  position: relative;
+  
+}
+
+.wet{
+  font-size: 2rem;
+  margin-top: 25px;
+}
